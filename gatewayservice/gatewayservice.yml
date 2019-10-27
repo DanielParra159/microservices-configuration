@@ -2,3 +2,5 @@ zuul.ignored-services: '*'
 zuul.prefix: /api
 zuul.routes.organizationservice: /organization/**
 zuul.routes.licenseservice: /license/**
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+zuul.debug.request: true
